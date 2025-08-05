@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrazain.ai</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Phosphor Icons for a clean, modern look -->
+    <script src="https://unpkg.com/@phosphor-icons/web@2.0.3/dist/phosphor.js"></script>
+    <style>
+        /* Custom styles for smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        .nav-link.active {
+            color: #4a90e2; /* Active link color */
+            border-bottom: 2px solid #4a90e2; /* Blue underline */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- Header and Navigation -->
+    <header class="sticky top-0 bg-white/80 backdrop-blur-sm shadow-md z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <ul class="flex flex-col md:flex-row md:space-x-8 space-y-2 md:space-y-0 justify-center">
+                <li><a href="#home" class="nav-link text-lg text-gray-600 hover:text-blue-500 transition-colors duration-300">Home</a></li>
+                <li><a href="#about" class="nav-link text-lg text-gray-600 hover:text-blue-500 transition-colors duration-300">About</a></li>
+                <li><a href="#products" class="nav-link text-lg text-gray-600 hover:text-blue-500 transition-colors duration-300">Products</a></li>
+                <li><a href="#services" class="nav-link text-lg text-gray-600 hover:text-blue-500 transition-colors duration-300">Services</a></li>
+                <li><a href="#contact" class="nav-link text-lg text-gray-600 hover:text-blue-500 transition-colors duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Sections -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Home Section -->
+        <section id="home" class="min-h-screen flex flex-col items-center justify-center text-center p-8">
+            <!-- Company Logo Placeholder -->
+            <div class="mb-8">
+                <img src="./ibra.png" alt="Company Logo" class="rounded-full w-25 h-25">
+            </div>
+            <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-blue-600 mb-4">Agentic AI Software Systems</h1>
+            <p class="text-xl sm:text-2xl lg:text-3xl text-gray-600">Innovating the future with intelligent solutions</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="min-h-screen flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow-xl mb-12">
+            <h2 class="text-3xl sm:text-4xl font-bold text-blue-600 mb-6">About Us</h2>
+            <p class="text-center text-lg max-w-2xl">We are a team of passionate engineers dedicated to creating transformative AI solutions. Our mission is to leverage artificial intelligence to solve complex problems.</p>
+
+            <!-- CEO Profile -->
+            <div class="mt-8 flex flex-col items-center text-center">
+                <img src="./shaheer.jpg" alt="CEO Profile Picture" class="rounded-full w-32 h-32 mb-4 object-cover">
+                <h3 class="text-xl font-semibold text-blue-600">Mohammad Shaheer Zaman</h3>
+                <p class="text-gray-500 max-w-sm">CEO & Founder</p>
+                <p class="text-sm mt-2 max-w-md">Shaheer is a software engigneer with a passion for artificial intelligence. With over 15 years of exprience in the software industry and technology working for companies like Qualcomm, AMD, WellsFargo, Deloitte and EY. He is now deeply involved in architecting, building AI based software systems.</p>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="min-h-screen flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow-xl mb-12">
+            <h2 class="text-3xl sm:text-4xl font-bold text-blue-600 mb-6">Our Products</h2>
+            <p class="text-center text-lg max-w-2xl">We offer a suite of cutting-edge AI products designed to streamline workflows, analyze data, and drive business growth. Click on a product below to learn more.</p>
+
+            <div class="mt-8">
+                <a href="#ai-support-platform" class="bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:from-blue-600 hover:to-indigo-600 transition-all duration-300 text-lg">AI-powered customer support platform</a>
+            </div>
+        </section>
+
+        <!-- AI-powered Customer Support Platform Section -->
+        <section id="ai-support-platform" class="flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow-xl mb-12">
+            <a href="#products" class="text-gray-500 hover:text-blue-500 transition-colors duration-300 mb-8">&larr; Back to Products</a>
+            <h2 class="text-3xl sm:text-4xl font-bold text-blue-600 mb-6 text-center">AI-powered Customer Support B2B SAS Multi-Tenant Platform</h2>
+            <p class="text-center text-lg max-w-3xl mb-8">
+                Our AI-powered customer support platform automates common inquiries, provides instant answers, and routes complex issues to the right human agent. This improves customer satisfaction, reduces response times, and frees up your team to focus on high-value tasks. The platform integrates seamlessly with your existing systems and offers real-time analytics to help you understand customer needs.
+            </p>
+
+            <!-- Contact CTA -->
+            <div class="flex justify-center mt-8">
+                <a href="mailto:shaheer.manuu@gmail.com" class="bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-lg font-bold py-3 px-8 rounded-full shadow-lg hover:from-blue-600 hover:to-indigo-600 transition-all duration-300">
+                    For enquiries and demo, please reach out at shaheer.manuu@gmail.com
+                </a>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl w-full mt-8">
+                <!-- Feature Card 1 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-blue-400 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-chat-circle-dots text-blue-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-blue-600">Real-time AI Chat</h3>
+                        <p class="text-sm text-gray-600">Using AI Agents to handle customer queries instantly.</p>
+                    </div>
+                </div>
+                <!-- Feature Card 2 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-blue-400 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-arrows-left-right text-blue-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-blue-600">Human Handoff & Auto-Close</h3>
+                        <p class="text-sm text-gray-600">Seamlessly transfer conversations to human agents or auto-close resolved tickets.</p>
+                    </div>
+                </div>
+                <!-- Feature Card 3 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-blue-400 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-users-three text-blue-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-blue-600">Multi-Tenant Support</h3>
+                        <p class="text-sm text-gray-600">Manage multiple client environments from a single platform.</p>
+                    </div>
+                </div>
+                <!-- Feature Card 4 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-blue-400 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-speaker-high text-blue-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-blue-600">AI Voice agents</h3>
+                        <p class="text-sm text-gray-600">Provide automated voice support for phone-based customer service.</p>
+                    </div>
+                </div>
+                <!-- Feature Card 5 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-blue-400 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-book-open-text text-blue-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-blue-600">Smart Knowledge Base</h3>
+                        <p class="text-sm text-gray-600">Utilizing Embeddings and RAG for intelligent, context-aware responses.</p>
+                    </div>
+                </div>
+                <!-- Feature Card 6 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-blue-400 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-microphone-stage text-blue-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-blue-600">Voice Support by VAPI</h3>
+                        <p class="text-sm text-gray-600">Advanced voice integrations for a more natural conversation flow.</p>
+                    </div>
+                </div>
+                <!-- Feature Card 7 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-blue-400 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-code-simple text-blue-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-blue-600">Embeddable Widget</h3>
+                        <p class="text-sm text-gray-600">Easily integrate the chat widget into any website or application.</p>
+                    </div>
+                </div>
+                <!-- Feature Card 8 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-blue-400 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-gauge text-blue-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-blue-600">Operator Dashboard</h3>
+                        <p class="text-sm text-gray-600">A centralized dashboard for agents to manage and monitor conversations.</p>
+                    </div>
+                </div>
+                <!-- Feature Card 9 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-blue-400 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-gear-six text-blue-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-blue-600">AI Model Support</h3>
+                        <p class="text-sm text-gray-600">Flexible support for leading AI models like OpenAI, Anthropic, and Grok.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="min-h-screen flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow-xl mb-12">
+            <h2 class="text-3xl sm:text-4xl font-bold text-blue-600 mb-6">Our Services</h2>
+            <p class="text-center text-lg max-w-2xl mb-8">From custom AI model development to integration and ongoing support, our team of experts provides comprehensive services to help you harness the power of artificial intelligence. We work with you to understand your unique challenges and deliver tailored solutions.</p>
+
+            <!-- Services Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl w-full">
+                <!-- Service Card 1 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-indigo-500 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-robot text-indigo-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-indigo-600">Build & Deploy AI Agent Systems</h3>
+                        <p class="text-sm text-gray-600">Develop and deploy production-quality, robust AI agent systems tailored to your needs.</p>
+                    </div>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-indigo-500 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-database text-indigo-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-indigo-600">Data Integration & Prep</h3>
+                        <p class="text-sm text-gray-600">Seamlessly transform and prepare your data for GenAI and ML workflows.</p>
+                    </div>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-indigo-500 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-arrows-clockwise text-indigo-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-indigo-600">Model Management</h3>
+                        <p class="text-sm text-gray-600">Efficiently manage, compare, and customize a combination of GenAI and classical ML models.</p>
+                    </div>
+                </div>
+                <!-- Service Card 4 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-indigo-500 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-chart-bar text-indigo-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-indigo-600">Performance & Quality Assurance</h3>
+                        <p class="text-sm text-gray-600">Quickly assess and improve the performance, quality, and reliability of your AI agents.</p>
+                    </div>
+                </div>
+                <!-- Service Card 5 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-indigo-500 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-book text-indigo-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-indigo-600">RAG-based Knowledge Systems</h3>
+                        <p class="text-sm text-gray-600">Build scalable RAG-based knowledge retrieval systems for your agent pipelines.</p>
+                    </div>
+                </div>
+                <!-- Service Card 6 -->
+                <div class="bg-gradient-to-br from-white to-blue-50 p-6 rounded-lg shadow-lg flex items-start space-x-4 border-l-8 border-indigo-500 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                    <i class="ph-shield-check text-indigo-600 text-3xl"></i>
+                    <div>
+                        <h3 class="font-semibold text-lg text-indigo-600">Comprehensive AI Governance</h3>
+                        <p class="text-sm text-gray-600">Ensure control and compliance with comprehensive governance for your entire AI workflow.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="min-h-screen flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow-xl mb-12">
+            <h2 class="text-3xl sm:text-4xl font-bold text-blue-600 mb-6">Contact Us</h2>
+            <p class="text-center text-lg max-w-2xl">Ready to transform your business with AI? Get in touch with us today to discuss your project. You can reach us at</p>
+            <a href="mailto:shaheer.manuu@gmail.com" class="mt-4 bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:from-blue-600 hover:to-indigo-600 transition-all duration-300 text-lg">shaheer.manuu@gmail.com</a>
+
+            <p class="text-center text-lg max-w-2xl mt-4">
+                Mohammad Shaheer Zaman, <br>
+                Plot No 2, Noor Nagar, Road No 10, <br>
+                Banjara Hills, Hyderabad 500034, <br>
+                Telangana, India.
+                Mobile: +919703626383
+            </p>
+
+            <p class="text-center text-lg max-w-2xl mt-4">or connect with us on social media.</p>
+            <div class="mt-4 flex space-x-4">
+                <a href="https://www.linkedin.com/in/mohammad-shaheer-zaman-082100214/" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors duration-300">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.765s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.765-1.75 1.765zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Simple footer -->
+    <footer class="text-center py-4 text-gray-500">
+        <p>&copy; 2025 Farsha.ai Software Company. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript to highlight the active navigation link on scroll
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= sectionTop - 100) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+                if (link.href.includes(current)) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+</body>
+</html>
